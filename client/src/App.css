@@ -1,0 +1,46 @@
+.homepage {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.homebtn {
+  display: block;
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.new-appointment-page, .search-page, .appointment-page {
+  text-align: center;
+  margin: 10px auto;
+}
+
+h1 {
+  padding: 20px;
+}
+.appointment {
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 80%;
+}
+.appointment-page form {
+  text-align: center;
+}
+.appointment-page form .formrow {
+  display: block;
+  margin: 10px auto;
+  vertical-align: middle;
+}
+.appointment-page form .formrow input, .appointment-page form .formrow textarea, .appointment-page form .formrow select {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+}
+.reset, .sort {
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
